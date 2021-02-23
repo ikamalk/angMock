@@ -1,0 +1,39 @@
+<div class="row">
+    <div class="col-md-5 col-md-offset-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Solar Heater Allocator</div>
+            <div class="panel-body"> 
+                <form [formGroup]="allocateForm" (ngSubmit)="register()" novalidate>
+                    <div class="form-group">
+                        <label for="distributorName">Distributor Name</label>
+                        <input class="form-control" id="distributorName" name="distributorName" formControlName="distributorName" type="text" required>
+                       
+                        <span class="error-message" id="distributorNameError" *ngIf="allocateForm.controls['distributorName'].invalid && (allocateForm.controls['distributorName'].dirty || allocateForm.controls['distributorName'].touched) && allocateForm.controls['distributorName'].errors.required">Required Field</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="purchaseDate">Purchase Date</label>
+                        <input class="form-control" id="purchaseDate" name="purchaseDate" formControlName="purchaseDate" type="date">
+                        <span class="error-message" id="ppurchaseDateError" *ngIf="allocateForm.controls['purchaseDate'].invalid && (allocateForm.controls['purchaseDate'].dirty || allocateForm.controls['purchaseDate'].touched) && allocateForm.controls['purchaseDate'].errors.required">Required Field</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="installationDate">Install Date</label>
+                        <input class="form-control" id="installationDate" name="installationDate" formControlName="installationDate" type="date">
+                        <span class="error-message" id="installationDateError" *ngIf="allocateForm.controls['installationDate'].invalid && (allocateForm.controls['installationDate'].dirty || allocateForm.controls['installationDate'].touched) && allocateForm.controls['installationDate'].errors.required">Required Field</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="customerId">Customer ID</label>
+                        <input class="form-control" id="customerId" formControlName="customerId" name="customerId" type="number">
+                            <span class="error-message" id="customerIdError" *ngIf="allocateForm.controls['customerId'].invalid && (allocateForm.controls['customerId'].dirty || allocateForm.controls['customerId'].touched) && allocateForm.controls['customerId'].errors.required">Required Field</span>
+
+                        </div>     
+                    <input class="btn-primary" type="submit" value="Register" [disabled]="!allocateForm.valid">
+                    <div id="successMessage" *ngIf="successMessage">{{successMessage}}</div>
+                    <div id="errorMessage" *ngIf="errorMessage">{{errorMessage}}</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

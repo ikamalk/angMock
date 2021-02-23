@@ -1,0 +1,48 @@
+Error: Invalid! Customer Id should be a 4 digit number
+    at Object.Validator.validateCustomer (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/Validator.js:5:15)
+    at Object.AllocatorBL.allocate (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorBL.js:8:15)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/routes/Routing.js:10:18
+    at Layer.handle [as handle_request] (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/layer.js:95:5)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:275:10)
+Error: Invalid! Customer Id should be a 4 digit number
+    at Object.Validator.validateCustomer (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/Validator.js:5:15)
+    at Object.AllocatorBL.allocate (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorBL.js:8:15)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/routes/Routing.js:10:18
+    at Layer.handle [as handle_request] (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/layer.js:95:5)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:275:10)
+Error: Invalid! Customer Id should be a 4 digit number
+    at Object.Validator.validateCustomer (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/Validator.js:5:15)
+    at Object.AllocatorBL.allocate (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorBL.js:8:15)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/routes/Routing.js:10:18
+    at Layer.handle [as handle_request] (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/layer.js:95:5)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/node_modules/express/lib/router/index.js:275:10)
+Error: The given Customer ID is not available
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorBL.js:12:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'solarHeaterId' of null
+    at Function.SolarHeater.toObject (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/SolarHeater.js:10:35)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorDAL.js:72:32
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'solarHeaterId' of null
+    at Function.SolarHeater.toObject (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/SolarHeater.js:10:35)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorDAL.js:72:32
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'solarHeaterId' of null
+    at Function.SolarHeater.toObject (/root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/SolarHeater.js:10:35)
+    at /root/Desktop/user_repo/Certification_Assessment/SolarAllocationWS/public/javascripts/AllocatorDAL.js:72:32
+    at process._tickCallback (internal/process/next_tick.js:68:7)
