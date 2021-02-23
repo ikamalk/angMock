@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-md-5 col-md-offset-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Solar Heater Bookings</div>
+            <div class="panel-body">
+                <select #mySelect class="custom-select" (change)="selectedId=mySelect.value;displaySelected()">
+                    <option *ngFor="let id of solarHeaterIds" [value]="id">{{id}}</option>
+                </select>
+                </div>
+            </div>
+        </div>
+    </div>
